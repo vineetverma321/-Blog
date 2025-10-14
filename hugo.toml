@@ -17,11 +17,11 @@ style = "github-dark"
 
 [params]
   author = "Vineet Verma"
-  info = "Full Stack DevOps and Magician"
-  description = "John Doe's personal website"
+  info = "MBA-turned-Full Stack Developer"
+  description = "Vineet Verma's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
+  #gravatar = "vineetverma321@example.com"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
