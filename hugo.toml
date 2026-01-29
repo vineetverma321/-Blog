@@ -1,9 +1,9 @@
-baseurl = "http://www.example.com"
+baseurl = "https://missingsemester.in/"
 title = "The Missing Semester of My Life's Education"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-timeZone = "Europe/Berlin"
+timeZone = "Asia/Kolkata"
 
 [pagination]
 pagerSize = 20
