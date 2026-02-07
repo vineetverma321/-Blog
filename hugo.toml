@@ -1,5 +1,5 @@
 baseurl = "https://missingsemester.in/"
-title = "The Missing Semester of My Life's Education"
+title = "The Missing Semester of Life's Education"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -16,26 +16,26 @@ shortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-  author = "Vineet Verma"
-  info = "MBA-turned-Full Stack Developer"
+  info = "I like to read.... and write (maybe)."
+  Subtitle = "what we should have been taught in school but didn't"
   description = "Vineet Verma's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "img/avatar.jpg"
+  avatarurl = "img/avatar.png"
   #gravatar = "vineetverma321@example.com"
 
-  favicon = "/img/favicon.ico"
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  favicon = "img/favicon.ico"
+  faviconSVG = "img/favicon.svg"
+  favicon_32 = "img/favicon-32x32.png"
+  favicon_16 = "img/favicon-16x16.png"
 
-  since = 2025
+  since = 2026
 
   enableTwemoji = true
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -63,8 +63,16 @@ style = "github-dark"
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Influences"
   weight = 2
+  url = "influences/"
+[[menu.main]]
+  name = "Readings"
+  weight = 3
+  url = "readings/"
+[[menu.main]]
+  name = "About"
+  weight = 4
   url = "about/"
 
 [caches]
