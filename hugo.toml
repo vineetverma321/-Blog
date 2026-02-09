@@ -1,80 +1,104 @@
-baseurl = "https://missingsemester.in/"
-title = "The Missing Semester of Life's Education"
-theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+baseurl = "https://blog.missingsemester.in/"
+title = "A place for whatever I feel like sharing"
+theme = "terminal"
+languageCode = "en"
 timeZone = "Asia/Kolkata"
 
 [pagination]
 pagerSize = 20
 
-[services]
-[services.disqus]
-shortname = "yourdiscussshortname"
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.highlight]
 style = "github-dark"
 
 [params]
-  info = "I like to read.... and write (maybe)."
-  Subtitle = "what we should have been taught in school but didn't"
-  description = "Vineet Verma's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "img/avatar.png"
-  #gravatar = "vineetverma321@example.com"
+contentTypeName = "posts"
+showMenuItems = 4
+fullWidthTheme = false
+centerTheme = true
+autoCover = true
+showPagination = true
+showReadingTime = true
+showLastUpdated = true
 
-  favicon = "img/favicon.ico"
-  faviconSVG = "img/favicon.svg"
-  favicon_32 = "img/favicon-32x32.png"
-  favicon_16 = "img/favicon-16x16.png"
+# Keep custom params for avatar and info
+info = "I like to read (a lot) .... and write (maybe)."
+avatarurl = "img/avatar.png"
 
-  since = 2026
+# Favicon settings
+favicon = "img/favicon.ico"
+faviconSVG = "img/favicon.svg"
+favicon_32 = "img/favicon-32x32.png"
+favicon_16 = "img/favicon-16x16.png"
 
-  enableTwemoji = true
+# Theme settings
+enableTwemoji = true
+colorScheme = "auto"
+since = 2026
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
-  customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+# Custom CSS
+customCSS = ["css/custom.css"]
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
-# Social links
-[[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/vineetverma321/"
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  weight = 2
-  url = "https://www.linkedin.com/in/vineetverma321/"
-
-# Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "Influences"
-  weight = 2
-  url = "influences/"
-[[menu.main]]
-  name = "Readings"
-  weight = 3
-  url = "readings/"
-[[menu.main]]
-  name = "About"
-  weight = 4
-  url = "about/"
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
 
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+dir = ':cacheDir/images'
+
+# Language settings (Terminal theme uses languages structure)
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.en.params]
+logoText = "A place for whatever I feel like sharing"
+logoHomeLink = "/"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "influences"
+name = "Influences"
+url = "/influences"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "readings"
+name = "Readings"
+url = "/readings"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 4
+
+# Social links (Terminal theme format)
+[[languages.en.menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/vineetverma321/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/vineetverma321/"
+weight = 11

@@ -1,67 +1,79 @@
-/* Layout: Title/Subtitle on left, Navigation on right */
+/* Custom styles for Terminal theme */
 
-.navigation .container {
+/* Home profile section with avatar and info */
+.home-profile {
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.home-profile-inner {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 100%;
-}
-
-.navigation-brand {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.navigation-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.navigation-subtitle {
-  font-size: 1.2rem;
-  opacity: 0.8;
-  margin: 0;
-  margin-top: 0.2rem;
-}
-
-.navigation-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
   gap: 2rem;
 }
 
-.navigation-item {
-  margin: 0;
+.home-avatar {
+  flex-shrink: 0;
 }
 
-.navigation-link {
-  font-size: 1.6rem;
-  text-decoration: none;
+.home-avatar img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  object-fit: cover;
 }
 
-/* Mobile responsive */
+.home-info {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  color: var(--foreground);
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* Custom table styling for readings and influences pages */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color, #333);
+}
+
+table th {
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent, #ffb86c);
+}
+
+table tr:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Ensure code blocks look good with Terminal theme */
+pre {
+  background: var(--background);
+  border: 1px solid var(--border-color, #333);
+}
+
+code {
+  font-family: "Fira Code", monospace;
+}
+
+/* Mobile responsive for profile section */
 @media only screen and (max-width: 768px) {
-  .navigation .container {
-    flex-wrap: wrap;
-  }
-  
-  .navigation-list {
-    display: none;
-    width: 100%;
+  .home-profile-inner {
     flex-direction: column;
-    gap: 0;
     text-align: center;
   }
   
-  #menu-toggle:checked + label + .navigation-list {
-    display: flex;
-  }
-  
-  .navigation-item {
-    margin: 0.5rem 0;
+  .home-info {
+    text-align: center;
   }
 }

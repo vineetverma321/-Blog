@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Sync Reader books to Hugo readings page
-Run daily via cron: 0 0 * * * /usr/bin/python3 /Users/tech/Desktop/Portfolio/quickstart/scripts/sync_readings.py
+Run daily via cron: 0 0 * * * /usr/bin/python3 /Users/tech/Desktop/Portfolio/Blog/scripts/sync_readings.py
 """
 
 import json
@@ -9,7 +9,7 @@ import subprocess
 import re
 from datetime import datetime
 
-READINGS_FILE = "/Users/tech/Desktop/Portfolio/quickstart/content/readings.md"
+READINGS_FILE = "/Users/tech/Desktop/Portfolio/Blog/content/readings.md"
 
 def fetch_reader_books():
     """Fetch books from Reader using the MCP CLI"""
