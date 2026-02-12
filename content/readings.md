@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-02-10T00:00:00+05:30
+date = 2026-02-12T04:42:08+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-10)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-12)"
 slug = "readings"
 authors = []
 tags = []
@@ -13,11 +13,11 @@ categories = []
 
 | Title | Author | Progress | Notes |
 |-------|--------|----------|-------|
-| Designing Your Life | Bill Burnett | 34.1% | Using design thinking for life and career |
-| Clear Thinking | Shane Parrish | 33.3% | Mental models and decision making |
-| The 4-Hour Workweek | Timothy Ferriss | 11.3% | Lifestyle design and automation |
-| Unlimited Power | Tony Robbins | 1.4% | Personal achievement and peak performance |
-| Make It Stick | Peter C. Brown | 0.6% | Learning strategies and memory retention |
+| The 4-Hour Workweek, Expanded and Updated: Escape 9-5, Live Anywhere, and Join the New Rich | Timothy Ferriss | 11.3% | |
+| Designing Your Life | Bill Burnett | 34.1% | |
+| Unlimited Power | Robbins, Tony | 1.4% | |
+| Clear Thinking | Shane Parrish | 33.3% | |
+| Make It Stick | Brown, Peter C. | 0.6% | |
 
 ---
 
@@ -25,9 +25,9 @@ categories = []
 
 | Title | Author | Priority | Notes |
 |-------|--------|----------|-------|
-| Psycho-Cybernetics | Maxwell Maltz | | Success through positive self-image |
-| Feel-good Productivity | Ali Abdaal | | Sustainable productivity without burnout |
-| A Mind For Numbers | Barbara Oakley | | Learning strategies for math and science |
+| Psycho-Cybernetics: Updated and Expanded | Maxwell Maltz | | |
+| Feel-good Productivity : How to Do More of What Matters to You | Abdaal, Ali | | |
+| A Mind For Numbers | Barbara Oakley, Ph.D. | | |
 
 ---
 
