@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2026-02-12T04:42:08+05:30
+date = 2026-02-12T04:42:23+05:30
 title = "Readings"
 description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-12)"
 slug = "readings"
