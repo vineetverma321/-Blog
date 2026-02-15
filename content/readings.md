@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-02-14T01:21:52+05:30
+date = 2026-02-15T01:29:40+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-14)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-15)"
 slug = "readings"
 authors = []
 tags = []
@@ -25,8 +25,13 @@ categories = []
 
 | Title | Author | Priority | Notes |
 |-------|--------|----------|-------|
+| How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers | Sönke Ahrens | | |
+| Anything You Want | Derek Sivers | | |
+| The Diary of a CEO: The 33 Laws of Business and Life | Steven Bartlett | | |
 | Psycho-Cybernetics: Updated and Expanded | Maxwell Maltz | | |
 | Feel-good Productivity : How to Do More of What Matters to You | Abdaal, Ali | | |
+| The Almanack Of Naval Ravikant | Naval Ravikant | | |
+| How To Get Rich (Without Getting Lucky) | Naval | | |
 | A Mind For Numbers | Barbara Oakley, Ph.D. | | |
 
 ---
