@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-02-20T01:22:34+05:30
+date = 2026-02-21T01:20:00+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-20)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-21)"
 slug = "readings"
 authors = []
 tags = []
@@ -18,6 +18,7 @@ categories = []
 | Unlimited Power | Robbins, Tony | 1.4% | |
 | Clear Thinking | Shane Parrish | 33.3% | |
 | Make It Stick | Brown, Peter C. | 0.6% | |
+| Hell Yeah Or No | Derek Sivers | 26.5% | |
 
 ---
 
