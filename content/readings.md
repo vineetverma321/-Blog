@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-02-21T01:20:00+05:30
+date = 2026-02-22T01:26:15+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-21)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-22)"
 slug = "readings"
 authors = []
 tags = []
@@ -13,12 +13,12 @@ categories = []
 
 | Title | Author | Progress | Notes |
 |-------|--------|----------|-------|
+| MAKE: Bootstrapper's Handbook | Pieter Levels | 19.2% | |
 | The 4-Hour Workweek, Expanded and Updated: Escape 9-5, Live Anywhere, and Join the New Rich | Timothy Ferriss | 11.3% | |
 | Designing Your Life | Bill Burnett | 34.1% | |
 | Unlimited Power | Robbins, Tony | 1.4% | |
 | Clear Thinking | Shane Parrish | 33.3% | |
 | Make It Stick | Brown, Peter C. | 0.6% | |
-| Hell Yeah Or No | Derek Sivers | 26.5% | |
 
 ---
 
@@ -41,4 +41,4 @@ categories = []
 
 | Title | Author | Year Read | Rating | Notes |
 |-------|--------|-----------|--------|-------|
-| *No completed books yet* | | | | |
+| Hell Yeah Or No | Derek Sivers | | | |
