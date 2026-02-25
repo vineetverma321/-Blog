@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-02-22T01:26:15+05:30
+date = 2026-02-25T07:38:24+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-22)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-02-25)"
 slug = "readings"
 authors = []
 tags = []
@@ -19,6 +19,7 @@ categories = []
 | Unlimited Power | Robbins, Tony | 1.4% | |
 | Clear Thinking | Shane Parrish | 33.3% | |
 | Make It Stick | Brown, Peter C. | 0.6% | |
+| How To Get Rich (Without Getting Lucky) | Naval | 4.3% | |
 
 ---
 
@@ -32,7 +33,6 @@ categories = []
 | Psycho-Cybernetics: Updated and Expanded | Maxwell Maltz | | |
 | Feel-good Productivity : How to Do More of What Matters to You | Abdaal, Ali | | |
 | The Almanack Of Naval Ravikant | Naval Ravikant | | |
-| How To Get Rich (Without Getting Lucky) | Naval | | |
 | A Mind For Numbers | Barbara Oakley, Ph.D. | | |
 
 ---
