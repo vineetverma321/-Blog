@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-03-01T01:43:23+05:30
+date = 2026-03-02T01:23:20+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-03-01)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-03-02)"
 slug = "readings"
 authors = []
 tags = []
@@ -27,6 +27,7 @@ categories = []
 
 | Title | Author | Priority | Notes |
 |-------|--------|----------|-------|
+| Building a Second Brain | Tiago Forte | | |
 | How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers | Sönke Ahrens | | |
 | Anything You Want | Derek Sivers | | |
 | The Diary of a CEO: The 33 Laws of Business and Life | Steven Bartlett | | |
