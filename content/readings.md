@@ -1,8 +1,8 @@
 +++ 
 draft = false
-date = 2026-03-27T01:46:43+05:30
+date = 2026-03-28T01:26:28+05:30
 title = "Readings"
-description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-03-27)"
+description = "My reading journey - what I am reading, what I want to read, and what I have read (Last synced: 2026-03-28)"
 slug = "readings"
 authors = []
 tags = []
